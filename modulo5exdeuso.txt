@@ -1,0 +1,14 @@
+O modulo tem uma função de verificar arquivo, caso o arquivo em questão não exista, ela cria outro
+
+# Exemplo de uso da classe
+prontuario = ProntuarioEletronico('cadastropacientes.csv', 'registrosdiagnosticos.csv', 'acompanhartratamentos.csv', 'evolucaoclinica.csv', 'anexosdocumentos.csv')
+
+prontuario.cadastrar_paciente('João Silva', 45, 'Masculino', 'Diabetes tipo 2', 'Maria Silva (esposa)')
+
+prontuario.registrar_diagnostico('João Silva', '2023-10-25', 'Hipertensão', 'Repouso e medicação')
+
+prontuario.acompanhar_tratamento('João Silva', 'Insulina', 'Aferir pressão diariamente', 'Fisioterapia')
+
+prontuario.documentar_evolucao('João Silva', '2023-11-02', 'Pressão arterial estabilizada', 'Níveis de glicose controlados', 'Melhora na mobilidade')
+
+prontuario.anexar_documento('João Silva', 'Exame de Sangue')
