@@ -1,4 +1,6 @@
-O modulo tem uma função de verificar arquivo, caso o arquivo em questão não exista, ela cria outro
+vou deixar criado dois módulos, um deles com menu, e outro sem.
+
+O módulo tem uma função de verificar arquivo, caso o arquivo em questão não exista, ela cria outro.
 
 # Exemplo de uso da classe
 prontuario = ProntuarioEletronico('cadastropacientes.csv', 'registrosdiagnosticos.csv', 'acompanhartratamentos.csv', 'evolucaoclinica.csv', 'anexosdocumentos.csv')
